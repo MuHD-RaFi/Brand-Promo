@@ -1,0 +1,449 @@
+
+html{
+    scroll-behavior: smooth;
+}
+.nav-item{
+    padding-right: 40px;
+}
+.main{
+    position: absolute;
+    font-weight: 600;
+    width: 108em;
+    height: 70px;
+}
+.navbar{
+    position: relative;
+    background: transparent;
+    z-index: 3;
+    height: 70px;
+}
+.main-b{
+    background-color: ghostwhite;
+}
+.logo{
+    height: 50px;
+}
+
+ul{
+    font-size: 16px;
+    
+}
+.navbar-nav{
+    font-weight: 700;
+}
+
+/* header.Sticky{
+    background-color: rgb(0, 0, 0);
+} */
+
+.image{
+    overflow: hidden;
+    position: relative;
+}
+
+.img-a{
+    width: 100%;
+    height: 900px;
+    transition:8s all ease-in-out;
+    
+}
+.img-a:hover{
+    transform: scale(1.1);
+}
+
+.navbar-collapse{
+    
+    position: absolute;
+    left: 70em;
+}
+.navbar-brand{
+    position: relative;
+    left: 3em;
+}
+.text-a{
+    text-align: center;
+    width: 100%;
+    position: relative;
+    top: 2em;
+    
+}
+.fw{
+    font-weight: 400;
+}
+.img-block {
+    width: 400px;
+    height: 550px;
+    position: relative;
+    left: 50em;
+    overflow: hidden;
+}
+
+.img-space { /* Fix the typo here */
+    overflow: hidden;
+}
+
+.img-block .img-space .d-block {
+    transition: 1s all ease-in-out;
+}
+
+.d-block:hover {
+    transform: scale(1.1);
+}
+
+
+
+.carousel-caption{
+    width: 500px;
+    height: 500px;
+    display: flex;
+
+}
+.circle{
+    border-radius: 50% ;
+}
+.carousel-indicators [data-bs-target]{
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+}
+.text{
+    position: relative;
+    top: 10em
+}
+
+.carousel{
+    height: 600px;
+    width: 88em;
+    position: relative;
+    left: 10em;
+}
+.main-b{
+    position: relative;
+    top: 3em;
+}
+.img-c{
+    width: 100%;
+    height: 850px;
+}
+.section{
+    position: relative;
+    top: 9em;
+    
+}
+.section-a{
+    position: relative;
+    height: 124vh;                 
+}
+.sep-a{
+    float: left;
+    width: 50%;
+    height: 573px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.sep-a .img-d{
+    transition:2s all ease-in-out;
+}
+
+
+
+
+.caption-old{
+    font-size: 17px;
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: 30em;
+    left: 18em;
+    letter-spacing: 2px;
+    font-family: none;
+}
+.sep-b{
+    float: right;
+    width: 50%;
+    height: 573px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+
+.sep-b .img-e{
+    transition:2s all ease-in-out;
+}
+
+.img-d:hover,
+.img-e:hover {
+    transform: scale(1.1);
+}
+
+
+.caption-sports{
+    font-size: 17px;
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: 30em;
+    left: 70em;
+    letter-spacing: 2px;
+    font-family: none;
+}
+.img-d{
+    width: 100%;
+    
+}
+
+.img-d:hover{
+    transform: scale(1.1);
+    
+}
+
+.img-e{
+    width: 100%;
+}
+
+.text-b{
+    text-align: center;
+    width: 100%;
+    position: relative;
+    top: 6em;
+}
+
+
+.heading-a{
+    position: relative;
+    top: 6em;
+}
+
+.line-1-container {
+    position: absolute;
+    left: 23em;
+    top: 16px;
+  }
+
+  p{
+      position: relative;
+      text-align: center;
+  }
+
+  .line-2-container {
+      position: absolute;
+      left: 86em;
+    top: 18px;
+    }
+
+  .line-1-container::before {
+    content: "";
+    display: flex;
+    position: absolute;
+    top: 50%;
+    width: 400px;
+    height: 1px;
+    background-color: #bbbcbc; /* You can change the color as needed */
+    transform: translateY(-50%);
+    
+  }
+  .line-2-container::after{
+      content: "";
+      display: flex;
+      position: absolute;
+      top: 50%;
+      width: 400px;
+      height: 1px;
+      background-color: #bbbcbc; /* You can change the color as needed */
+      transform: translateY(-50%);
+      
+  }
+
+  .line-1-container::before {
+    left: 0;
+  }
+
+  .line-2-container::after {
+    right: 0;
+  }
+
+  .head-text{
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #6e6060;
+  }
+
+.sep-c{
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 573px;
+    overflow: hidden;
+    cursor: pointer;
+    height: 492px;
+}
+.sep-d{
+    position: relative;
+    float: right;
+    width: 50%;
+    height: 573px;
+    overflow: hidden;
+    cursor: pointer;
+    height: 492px;
+}
+.img-f{
+    width: 100%;
+}
+.caption-super{
+    font-size: 17px;
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: 25em;
+    left: 19em;
+    letter-spacing: 2px;
+    font-family: none;
+}
+.link-a{
+    color: white;
+    text-decoration: none;
+}
+.img-g{
+    width: 100%;
+}
+.caption-hyper{
+    font-size: 17px;
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: 25em;
+    left: 20em;
+    letter-spacing: 2px;
+    font-family: none;
+
+}
+
+.sep-c .img-f{
+    transition:2s all ease-in-out;
+}
+
+.sep-d .img-g{
+    transition:2s all ease-in-out;
+}
+
+.img-f:hover,
+.img-g:hover {
+    transform: scale(1.1);
+}
+.link-a{
+    &:hover{
+        color: white;
+        text-shadow: 0 5px 15px #afe0f5;
+    }
+
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    top: 182em;
+}
+
+.foot-a{
+    background-color: rgb(14 14 14);
+    width: 100%;
+    height: 600px;
+}
+
+.head-b{
+    position: relative;
+    width: 100%;
+    height: 85px;
+
+}
+.foot-text{
+    position: absolute;
+    top: 1em;
+    left: 22em;
+    font-weight: 900;
+    color: #4b4b4b;
+}
+.span-a{
+    position: absolute;
+    left: 856px;
+    top: 10px;
+    font-size: 50px;
+    font-weight: 600;
+    color: #4b4b4b; 
+}
+.foot-text-a{
+    position: absolute;
+    top: 1em;
+    left: 28em;
+    font-weight: 300;
+    color: #4b4b4b;
+}
+.cont{
+    width: 100%;
+    height: 10vh;
+}
+.ul-a{
+    
+    height: 15vh;
+    position: absolute;
+    left: 35em;
+
+}
+.li-a{
+    text-decoration: none;
+    color: #4b4b4b;
+    display: block;
+    
+    
+}
+.li-main{
+    float: left;
+    padding: 45px;
+    list-style: none;
+}
+
+.li-a:hover{
+    color: white;
+}
+.text-foot{
+    width: 100%;
+    height: 30vh;
+    position: relative;
+    top: 3em;
+}
+.text-foot-a{
+    color: #4b4b4b;
+}
+.media{
+    width: 100%;
+    height: 5vh;
+    position: relative;
+    top: 0em;
+}
+.img-media-a{
+    width: 9px;
+}
+.img-media-b{
+    width: 17px;
+}
+.img-media-c{
+    width: 18px;
+}
+.img-media-d{
+    width: 24px;
+}
+.media-a{
+    list-style: none;
+    float: left;
+    padding-left: 3em;
+}
+.ul-b{
+    height: 6vh;
+    width: 22em;
+    position: relative;
+    left: 29em;
+}
+
